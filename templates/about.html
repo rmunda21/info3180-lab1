@@ -2,9 +2,16 @@
 <html lang="en">
 <head>
  <meta charset="UTF-8">
+ <link rel="stylesheet" href="{{url_for('static',filename='css/app.css')}}"/>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
  <title>My Website - About</title>
 </head>
 <body>
+ <div class="img-container">
+  <img src="{{url_for('static',filename='images/user.png')}}">
+ </div>
  <h1>Ricardo Munda</h1>
  <p>I am current pursuing a degree in Computer Science at The University of the West Indies Mona to become a Full Stack
     Web Developer.
